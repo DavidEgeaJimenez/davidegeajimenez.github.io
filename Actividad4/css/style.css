@@ -1,0 +1,89 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-color: #fff8f0;
+color: #333;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+
+header {
+background-color: #b83b1b;
+color: white;
+padding: 15px 0;
+}
+
+h1 {
+margin: 0;
+}
+
+h2 {
+color: #b83b1b;
+}
+
+.imagen-principal, .imagen-receta {
+border-radius: 10px;
+margin: 20px auto;
+width: 500px;
+display: block;
+box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.lista-recetas {
+list-style: none;
+padding: 0;
+}
+
+.lista-recetas li {
+margin: 10px 0;
+}
+
+.lista-recetas a {
+text-decoration: none;
+color: #b83b1b;
+font-weight: bold;
+}
+
+.lista-recetas a:hover {
+color: #ff7f50;
+}
+
+.ingredientes, .pasos {
+text-align: left;
+display: inline-block;
+margin: 20px auto;
+text-align: left;
+}
+
+.ingredientes li, .pasos li {
+margin: 5px 0;
+}
+
+.boton {
+display: inline-block;
+background-color: #b83b1b;
+color: white;
+padding: 10px 20px;
+text-decoration: none;
+border-radius: 8px;
+}
+
+.boton:hover {
+background-color: #ff7f50;
+}
+
+.volver {
+color: #b83b1b;
+text-decoration: none;
+}
+
+.volver:hover {
+text-decoration: underline;
+}
+
+footer {
+background-color: #f2e1d0;
+padding: 10px;
+margin-top: 30px;
+font-size: 0.9em;
+}

@@ -1,39 +1,67 @@
 body {
-    font-family: Calibri, Arial, Helvetica, sans-serif;
+font-family: Calibri, Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    font-family: Cambria, Times, serif;
-    color: #1F497D;
-    background-color: #BFBFBF;
-    font-size: 24px;
-    letter-spacing: 0.5em;
-    word-spacing: 1.5em;
-    text-align: center;
-    text-transform: uppercase;
+font-family: Cambria, Times, serif;
+color: #1F497D;
+background-color: #BFBFBF;
+font-size: 24px;
+letter-spacing: 0.5em;
+word-spacing: 1.5em;
+text-align: center;
+text-transform: uppercase;
 }
 
 h2 {
-    font-family: Cambria, Times, serif;
-    color: #632423;
-    font-size: 18px;
-    letter-spacing: 0.5em;
-    text-transform: uppercase;
+font-family: Cambria, Times, serif;
+color: #632423;
+font-size: 18px;
+letter-spacing: 0.5em;
+text-transform: uppercase;
 }
 
 h3 {
-    font-family: Cambria, Times, serif;
-    color: #4F6228;
-    font-size: 16px;
-    text-transform: uppercase;
+font-family: Cambria, Times, serif;
+color: #4F6228;
+font-size: 16px;
+text-transform: uppercase;
 }
 
 li {
-    font-style: italic;
-    font-weight: bold;
+font-style: italic;
+font-weight: bold;
 }
 
 a {
-    font-weight: lighter;
-    text-transform: uppercase;
+font-weight: lighter;
+text-transform: uppercase;
+color: #1F497D;
+text-decoration: none;
+border-bottom: 2px solid transparent;
+transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+color: #632423;
+border-bottom: 2px solid #632423;
+}
+
+a:visited {
+color: #1F497D;
+}
+
+a:active, a:focus {
+color: #632423;
+outline: none;
+}
+
+footer {
+text-align: center;
+font-size: 14px;
+margin-top: 20px;
+}
+
+footer p {
+font-style: italic;
 }
