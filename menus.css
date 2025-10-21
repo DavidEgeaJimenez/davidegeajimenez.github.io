@@ -65,3 +65,54 @@ margin-top: 20px;
 footer p {
 font-style: italic;
 }
+
+.boton {
+display: inline-block;
+background-color: #b83b1b;
+color: white;
+padding: 10px 20px;
+text-decoration: none;
+border-radius: 8px;
+}
+
+.boton:hover {
+background-color: #ff7f50;
+}
+
+.foto-perfil {
+border-radius: 10px;
+margin: 20px auto;
+width: 200px;
+display: block;
+box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.animacion {
+border-radius: 10px;
+margin: 20px auto;
+width: 400px;
+display: block;
+box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+section.curriculum {
+    text-align: center;
+}
+
+iframe.curriculo {
+    width: 900px;
+    height: 700px;
+}
+
+iframe.pdf {
+    width: 700px;
+    height: 500px;
+}
+
+a.libro {
+    text-align: center;
+}
+
+h3.portfolio {
+    text-align: center;
+}
