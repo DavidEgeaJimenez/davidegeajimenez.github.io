@@ -116,3 +116,36 @@ a.libro {
 h3.portfolio {
     text-align: center;
 }
+
+.caja {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin: 15px auto;
+    padding: 15px;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.header {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.contenido-principal {
+    background-color: #fafafa;
+}
+
+.menu-actividades ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-actividades li {
+    margin: 10px 0;
+}
+
+.pie-pagina {
+    background-color: #f4f4f4;
+    font-size: 14px;
+    text-align: center;
+}
