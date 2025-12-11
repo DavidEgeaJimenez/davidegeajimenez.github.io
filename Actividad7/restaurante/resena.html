@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="David Egea Jiménez">
+    <meta name="description"
+        content="Deja tu reseña sobre Egea's Kitchen. Cuéntanos si te gustó nuestro Gazpacho, Paella o Tortilla de patatas.">
+    <meta name="keywords"
+        content="reseñas, opiniones, Egea's Kitchen, Gazpacho, Paella, Tortilla de patatas, David Egea Jiménez">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reseñas | Egea's Kitchen</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="cabecera">
+        <h1>Reseñas de Egea's Kitchen</h1>
+    </header>
+
+    <nav class="navegacion">
+        <ul>
+            <li><a href="index.html" class="activo">Inicio</a></li>
+            <li><a href="tortilladepatatas.html">Tortilla de Patatas</a></li>
+            <li><a href="paella.html">Paella</a></li>
+            <li><a href="gazpacho.html">Gazpacho</a></li>
+            <li><a href="reserva.html">Reserva</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="resena.html">Reseñas</a></li>
+        </ul>
+    </nav>
+
+    <div class="contenedor">
+        <div class="caja-principal">
+            <h2>Tu Opinión Nos Importa</h2>
+
+            <form action="#" method="post">
+                <div class="caja">
+                    <label>Nombre:</label><br>
+                    <input type="text" name="nombre" required>
+                </div>
+
+                <div class="caja">
+                    <label>Puntuación (1 a 5):</label><br>
+                    <select name="puntuacion" required>
+                        <option value="1">1 - Muy malo</option>
+                        <option value="2">2 - Malo</option>
+                        <option value="3">3 - Aceptable</option>
+                        <option value="4">4 - Muy bueno</option>
+                        <option value="5">5 - Excelente</option>
+                    </select>
+                </div>
+
+                <div class="caja">
+                    <label>Reseña:</label><br>
+                    <textarea name="resena" rows="5" required></textarea>
+                </div>
+
+                <button class="boton" type="submit">Enviar Reseña</button>
+            </form>
+        </div>
+    </div>
+</body>
+<footer>
+    <hr>
+    <p>© 2025 Egea's Kitchen || Todos los derechos reservados</p>
+</footer>
+
+</html>

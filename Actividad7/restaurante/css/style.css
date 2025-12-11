@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff8f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header.cabecera {
+    background-color: #b83b1b;
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.navegacion {
+    background-color: #f2e1d0;
+    padding: 10px 0;
+}
+
+.navegacion ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navegacion li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navegacion a {
+    text-decoration: none;
+    color: #b83b1b;
+    font-weight: bold;
+}
+
+.navegacion a:hover, .navegacion a.activo {
+    color: #ff7f50;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.caja-principal, .caja-receta {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.caja {
+    border: 2px solid #f2e1d0;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.imagen-principal, .imagen-receta {
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 500px;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.lista-recetas {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-recetas li {
+    margin: 10px 0;
+}
+
+.lista-recetas a {
+    text-decoration: none;
+    color: #b83b1b;
+    font-weight: bold;
+}
+
+.lista-recetas a:hover {
+    color: #ff7f50;
+}
+
+.ingredientes, .pasos {
+    text-align: left;
+    display: inline-block;
+    margin: 20px auto;
+}
+
+.ingredientes li, .pasos li {
+    margin: 5px 0;
+}
+
+.boton {
+    display: inline-block;
+    background-color: #b83b1b;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.boton:hover {
+    background-color: #ff7f50;
+}
+
+.volver {
+display: inline-block;
+background-color: #b83b1b;
+color: white;
+padding: 10px 20px;
+text-decoration: none;
+border-radius: 8px;
+}
+
+.volver:hover {
+text-decoration: underline;
+background-color: #ff7f50;
+}
+
+footer {
+    background-color: #f2e1d0;
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+
+iframe.pdf {
+    width: 90%;
+    height: 600px;
+    border: none;
+    border-radius: 10px;
+}

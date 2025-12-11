@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.titulo-centro {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.contenedor {
+    width: 800px;
+    margin: 20px auto;
+}
+
+form {
+    width: 100%;
+}
+
+.caja {
+    background: #eab867;
+    padding: 20px;
+    border-radius: 25px;
+    border: 2px solid #8d6a2e;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+legend {
+    font-weight: bold;
+    float: right;
+    margin-right: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #666;
+    background: #fff;
+}
+
+textarea {
+    width: 95%;
+    height: 80px;
+}
+
+select[multiple] {
+    width: 150px;
+}
+
+.fila-radio,
+.fila-checks {
+    margin: 10px 0;
+}
+
+.fila-radio label,
+.fila-checks label {
+    margin-right: 15px;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px 0;
+}
+
+.btn {
+    background: #5d4a2a;
+    color: white;
+    padding: 12px 50px;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.cancelar {
+    background: #3d2f17;
+}

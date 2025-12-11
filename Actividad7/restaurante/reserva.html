@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="David Egea Jiménez">
+    <meta name="description"
+        content="Reserva tu mesa en Egea's Kitchen. Disfruta del auténtico Gazpacho, Paella y Tortilla de patatas con nuestra experiencia gastronómica.">
+    <meta name="keywords"
+        content="Egea's Kitchen, reservas, restaurante, Gazpacho, Paella, Tortilla de patatas, David Egea Jiménez">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva | Egea's Kitchen</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="cabecera">
+        <h1>Reserva en Egea's Kitchen</h1>
+    </header>
+
+    <nav class="navegacion">
+        <ul>
+            <li><a href="index.html" class="activo">Inicio</a></li>
+            <li><a href="tortilladepatatas.html">Tortilla de Patatas</a></li>
+            <li><a href="paella.html">Paella</a></li>
+            <li><a href="gazpacho.html">Gazpacho</a></li>
+            <li><a href="reserva.html">Reserva</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="resena.html">Reseñas</a></li>
+        </ul>
+    </nav>
+
+    <div class="contenedor">
+        <div class="caja-principal">
+            <h2>Formulario de Reserva</h2>
+
+            <form action="#" method="post">
+                <div class="caja">
+                    <label>Nombre completo:</label><br>
+                    <input type="text" name="nombre" required>
+                </div>
+
+                <div class="caja">
+                    <label>Correo electrónico:</label><br>
+                    <input type="email" name="email" required>
+                </div>
+
+                <div class="caja">
+                    <label>Fecha:</label><br>
+                    <input type="date" name="fecha" required>
+                </div>
+
+                <div class="caja">
+                    <label>Hora:</label><br>
+                    <input type="time" name="hora" required>
+                </div>
+
+                <div class="caja">
+                    <label>Número de comensales:</label><br>
+                    <input type="number" name="personas" min="1" required>
+                </div>
+
+                <button class="boton" type="submit">Reservar</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+<footer>
+    <hr>
+    <p>© 2025 Egea's Kitchen || Todos los derechos reservados</p>
+</footer>
+
+</html>
