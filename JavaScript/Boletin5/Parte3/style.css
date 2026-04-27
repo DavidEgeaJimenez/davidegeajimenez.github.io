@@ -1,0 +1,79 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: white;
+}
+
+.cabecera h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.cabecera h2 {
+    margin: 5px 0 20px;
+    font-size: 20px;
+}
+
+.contenedor {
+    width: 700px;
+    margin: auto;
+}
+
+fieldset.caja {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #555;
+    position: relative;
+}
+
+legend {
+    padding: 3px 10px;
+    background: white;
+    border: 1px solid #888;
+    font-weight: bold;
+}
+
+.datos { background: #c9c9c9; }
+.acceso { background: #f4b183; }
+.documentos { background: #c97a7a; }
+
+.fila {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.fila label {
+    flex: 1;
+    margin-right: 15px;
+}
+
+input, select {
+    width: 95%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.subgrupo {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.boton {
+    padding: 10px 20px;
+    border: 1px solid black;
+    background: #d9d9d9;
+    cursor: pointer;
+}
+
+.limpiar {
+    background: white;
+}
